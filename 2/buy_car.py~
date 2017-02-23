@@ -14,8 +14,7 @@ while True:
 		print(index, value[0], value[1])
 	
 	print("退出购物? (exit) ")
-	choice = input("请输入:").strip() #s为字符串，rm为要删除的字符系列 s.strip(rm)删除s字符串开头结尾处
-	#当rm为空时，默认删除空白符（包括'\n','\r','\t',''）
+	choice = input("请输入:").strip()
 	if choice == "exit":
 		break
 	elif choice.isdigit():
