@@ -10,7 +10,7 @@ buy_list = []
 salary = int(input("请输入您的工资: "))
 
 while True:
-	for index, value in enumerate(product_list):
+	for index, value in enumerate(product_list):#enumerate用于遍历序列中的元素和下标
 		print(index, value[0], value[1])
 	
 	print("退出购物? (exit) ")
